@@ -1,0 +1,39 @@
+{
+  "name": "react-native-navigation-template",
+  "version": "0.1.0",
+  "description": "A template for react-navigation in React Native using typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm i --save react react-native @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view typescript & npm install -D @types/react @types/react-native"
+  },
+  "keywords": [
+    "React native navigation template",
+    "React native navigation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uit2712/react-native-navigation-template.git"
+  },
+  "author": "uit2712",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uit2712/react-native-navigation-template/issues"
+  },
+  "homepage": "https://github.com/uit2712/react-native-navigation-template#readme",
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "react": "^17.0.1",
+    "react-native": "^0.64.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-native": "^0.64.7"
+  }
+}
