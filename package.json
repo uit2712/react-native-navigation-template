@@ -5,6 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public",
     "install-all": "npm i --save react react-native @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view typescript & npm install -D @types/react @types/react-native"
   },
   "keywords": [
