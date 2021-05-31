@@ -1,6 +1,6 @@
-import { NavigatorScreenParams } from "@react-navigation/core";
 import { StackNavigationProp } from "@react-navigation/stack";
-import { IScreenParams } from "../../route-params";
+import { NavigatorScreenParams, RouteProp } from "@react-navigation/native";
+import { IScreenParams } from "../../../route-params";
 
 export interface IThirdScreenParams extends IScreenParams {
     num3: number;
@@ -17,3 +17,5 @@ export type Stack2Params = {
 
 export type Stack2NavigationProp = StackNavigationProp<Stack2Params>;
 export type Stack2NavigatorScreenParams = NavigatorScreenParams<Stack2Params>;
+export type ThirdScreenRouteProp = RouteProp<Stack2Params, 'Third'>;
+export type FourthScreenRouteProp = RouteProp<Stack2Params, 'Fourth'>;
