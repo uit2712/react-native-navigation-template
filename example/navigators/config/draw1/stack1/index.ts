@@ -1,5 +1,5 @@
 import { NavigationProp, NavigatorScreenParams, RouteProp } from "@react-navigation/native";
-import { IScreenParams } from "../../route-params";
+import { IScreenParams } from "../../../route-params";
 
 export interface IFirstScreenParams extends IScreenParams {
     num1: number;
