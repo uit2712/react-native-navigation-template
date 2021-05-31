@@ -17,8 +17,7 @@ npm i --save @react-navigation/drawer
 npm i --save @react-navigation/bottom-tabs
 ```
 # Usage
-- Copy all files and folders in folder __template__ to your app's root folder.
-- Check file __package-main.json__ for installing all __dependencies__ or __devDependencies__
+Copy all files and folders in folder __template__ to your app's root folder.
 # Example
 ## Navigator structure
     .
