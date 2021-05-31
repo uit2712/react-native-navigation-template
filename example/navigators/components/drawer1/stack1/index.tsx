@@ -2,8 +2,8 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import { Draw1NavigationProp } from '../../../config/draw1';
-import { SecondScreenRouteProp, Stack1NavigationProp, Stack1Params } from '../../../config/draw1/stack1';
+import { Draw1NavigationProp } from '../../../config/drawer1';
+import { SecondScreenRouteProp, Stack1NavigationProp, Stack1Params } from '../../../config/drawer1/stack1';
 
 const Stack1 = createStackNavigator<Stack1Params>();
 function Stack1Navigator() {

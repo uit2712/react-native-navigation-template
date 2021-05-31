@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Tab1Params } from '../../../config/draw1/tab1';
+import { Tab1Params } from '../../../config/drawer1/tab1';
 import Tab2Navigator from './tab2';
 import Stack2Navigator from './stack2';
 

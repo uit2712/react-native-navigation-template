@@ -2,7 +2,7 @@ import { useRoute } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import React from "react";
 import { Text, View } from "react-native";
-import { FourthScreenRouteProp, Stack2Params, ThirdScreenRouteProp } from "../../../config/draw1/tab1/stack2";
+import { FourthScreenRouteProp, Stack2Params, ThirdScreenRouteProp } from "../../../config/drawer1/tab1/stack2";
 
 const Stack2 = createStackNavigator<Stack2Params>();
 function Stack2Navigator() {

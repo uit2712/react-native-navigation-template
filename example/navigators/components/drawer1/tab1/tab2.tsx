@@ -3,7 +3,7 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import React from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import { Draw1NavigationProp } from "..";
-import { FifthScreenRouteProp, SixthScreenRouteProp, Tab2Params } from "../../../config/draw1/tab1/tab2";
+import { FifthScreenRouteProp, SixthScreenRouteProp, Tab2Params } from "../../../config/drawer1/tab1/tab2";
 
 const Tab2 = createBottomTabNavigator<Tab2Params>();
 function Tab2Navigator() {
