@@ -7,15 +7,11 @@
  */
 
 import React from 'react';
-import {
-    View,
-} from 'react-native';
+import Drawer1Navigator from './navigators';
 
 function App() {
     return (
-        <View>
-
-        </View>
+        <Drawer1Navigator/>
     );
 };
 
