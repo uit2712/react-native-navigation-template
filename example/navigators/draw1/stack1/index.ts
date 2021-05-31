@@ -9,12 +9,12 @@ export interface ISecondScreenParams extends IScreenParams {
     num2: number;
 }
 
-export type Stack1ParamsList = {
+export type Stack1Params = {
     First: IFirstScreenParams;
     Second: ISecondScreenParams;
 }
 
-export type Stack1NavigationProp = NavigationProp<Stack1ParamsList>;
-export type Stack1NavigatorScreenParams= NavigatorScreenParams<Stack1ParamsList>;
-export type FirstScreenRouteProp = RouteProp<Stack1ParamsList, 'First'>;
-export type SecondScreenRouteProp = RouteProp<Stack1ParamsList, 'Second'>;
+export type Stack1NavigationProp = NavigationProp<Stack1Params>;
+export type Stack1NavigatorScreenParams = NavigatorScreenParams<Stack1Params>;
+export type FirstScreenRouteProp = RouteProp<Stack1Params, 'First'>;
+export type SecondScreenRouteProp = RouteProp<Stack1Params, 'Second'>;
