@@ -1,12 +1,12 @@
 {
   "name": "react-native-navigation-typescript-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A template for react-navigation in React Native using typescript",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish --access=public",
-    "install-all": "npm i --save react react-native @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view typescript & npm install -D @types/react @types/react-native"
+    "install-all": "npm i --save react react-native @react-navigation/native @react-navigation/stack react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view & npm install -D typescript @types/react @types/react-native"
   },
   "keywords": [
     "React native navigation template",
