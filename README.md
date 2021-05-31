@@ -5,4 +5,5 @@ npm i -D react-native-navigation-typescript-template
 ```
 # Usage
 - Copy all files and folders in folder __template__ to your app's root folder.
-- Check file __package-main.json__ for installing all __dependencies__ or __devDependencies__
+# Example
+Link github: https://github.com/uit2712/react-native-navigation-template/tree/example
