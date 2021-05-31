@@ -1,6 +1,6 @@
 {
   "name": "react-native-navigation-typescript-template",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A template for react-navigation in React Native using typescript",
   "main": "index.ts",
   "scripts": {
